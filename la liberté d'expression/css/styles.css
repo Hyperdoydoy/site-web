@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+*{
+    font-family: 'Montserrat';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+header.first {
+    display: flex;
+    align-items: center;
+}
+
+header.first img {
+    width: 100px;
+}
+
+section.top-page {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/illustration.jpg');
+    background-size: cover;
+    height: 110vh;
+    padding: 35px;
+}
+
+/* page "d'acceuil" (landing page) */
+
+.landing-page {
+    padding: 20px 50px;
+}
+
+.big-title {
+    color:white;
+    font-size: 60px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    margin-right: 60%;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0px;
+}
+
+/* navigation avec fonction déroulante */
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 600px;
+    margin-left: 110px;
+}
+.azerty {
+    margin-left: 35px;
+}
+
+/* limites */
+
+.section-title-limites {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+/* définition*/
+.section-definition {
+    font-size: 400px;
+}
+
+/*interface de section*/
+
+nav li a{
+    display: flex ;
+    justify-content: space-between;   
+    align-items: center ;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    position: absolute;
+    margin-top: -50px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+
+ nav li a:hover{
+    background: white;
+    color: black;
+ }
+
+ nav li.active a{
+    background: white;
+    color: black;
+ }
+
+ /* paragraphes limites */
+
+ p.partie1L {
+    margin-right: 500px;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.1em;
+ }
+
+ p.partie2L {
+    margin-right: 500px;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.1em;
+ }
+
+ p.partie3L {
+    margin-right: 500px;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.1em;
+ }
+
+ .limites img {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 65%;
+    width: auto;
+    height: auto;
+ }
+
+/* les sanctions */
+
+.section-title-sanctions {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+p.partie1S {
+    margin-right: 440px;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+div img {
+    margin-top: 350px;
+    
+}
+
+.sanctions img {
+    position: absolute;
+    margin-left: 68%;
+    margin-bottom: 200px; /* Ajustez la marge selon vos besoins */
+    width: auto;
+    height: auto;
+}
+
+/* Exemples */
+
+.exemples-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+p.partie1E {
+    margin-right: 440px;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.exemples img {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -85px;
+}
+
+p.partie2E {
+    margin-right: 440px;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.exemples1 {
+    position: absolute;
+    margin-top: 365px;
+    margin-left: 73%;
+}
+
+.exemples2 {
+    position: absolute;
+    margin-top: 610px;
+    margin-left: 70%;
+}
+
+.exemples3 {
+    position: absolute;
+    margin-top: 850px;
+    margin-left: 70%;
+}
+
+p.partie3E {
+    margin-right: 440px;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+p.partie4E {
+    margin-right: 440px;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.exemples4 {
+    position: absolute;
+    margin-top: 1080px;
+    margin-left: 74%;
+}
+
+p.partie5E {
+    margin-right: 440px;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.exemples5 {
+    position: absolute;
+    margin-top: 1320px;
+    margin-left: 74%;
+}
+
+p.partie6E {
+    margin-right: 440px;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+/* Conclusion */
+
+.conclusion-title{
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+p.partie1C {
+    margin-right: 440px;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.conclusion-img {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -300px;
+}
+
+.final-button {
+    color: darkblue;
+    margin-left: 56.5%;
+    scroll-behavior: smooth;
+}
+

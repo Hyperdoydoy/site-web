@@ -1,0 +1,46 @@
+.titre-def {
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+
+.def {
+    margin-right: 500px;
+    font-size: 30px;
+}
+
+
+
+.externe {
+    margin-right: 480px;
+}
+
+.externe a {
+    color: saddlebrown;
+    font-weight: 900;
+}
+
+.retour {
+    margin-right: 40%;
+    margin-top: 50%;
+    color: saddlebrown;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.image-liberte {
+    display: flex;
+    width: 50px;
+    height: 60px;
+}
+
+.image-liberte {
+    display: flex;
+    margin-left: -700px;
+}
+
+.image-liberte img {
+    max-width: 100%;
+    margin-left: 700px; 
+}
+
